@@ -38,3 +38,4 @@ A Panerai is a tool watch that demands a professional-grade maintenance environm
 
 ---
 *Disclaimer: This guide is for technical reference. Always refer to your Officine Panerai technical manual for official maintenance protocols.*
+Next: [Rolex Guide](./ROLEX_TPD_GUIDE.md) | [Omega Guide](./OMEGA_TPD_GUIDE.md) | [IWC Guide](./IWC_TPD_GUIDE.md)
