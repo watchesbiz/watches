@@ -39,3 +39,4 @@ Even a 15,000 Gauss resistant watch deserves a professional environment. **Auraw
 
 ---
 *Disclaimer: Data provided is for technical guidance. Always refer to your Omega International Warranty card and manual for specific care instructions.*
+Check out our other guides: [Rolex](./ROLEX_TPD_GUIDE.md) | [Patek Philippe](./PATEK_TPD_GUIDE.md)
