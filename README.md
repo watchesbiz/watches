@@ -19,7 +19,7 @@ This project is an extension of the **Aurawinder Engineering Initiative**, where
 ## 🔗 Full Interactive Database
 The complete, searchable, and regularly updated database is hosted on our main engineering portal:
 
-👉 **[Access the Full Watch TPD Database Here](https://aurawinder.com/pages/tpd-database)**
+👉 **[Access the Full Watch TPD Database Here](https://www.aurawinder.com/automatic-watch-settings-watch-tpd-database/)**
 
 ---
 
@@ -30,7 +30,7 @@ This database is powered by **Aurawinder**, a brand dedicated to creating the wo
 - **Biometric Security:** Integrated 508 DPI fingerprint sensors for secure access.
 - **Artisan Craftsmanship:** Hand-finished North American Walnut chassis.
 
-Explore our mission: [https://aurawinder.com](https://aurawinder.com)
+Explore our mission: [https://www.aurawinder.com](https://www.aurawinder.com)
 
 ## 🤝 Contribution
 If you have data for a rare caliber not listed in our web database, please open an issue or submit a pull request.
