@@ -23,7 +23,7 @@ Rolex movements, such as the **Calibre 3235** or **4130**, are engineered for hi
 ## 🔗 Access the Full Database
 Looking for a specific vintage reference or a rare Yacht-Master setting? We maintain the world's most complete, searchable database for every Rolex reference ever made.
 
-👉 **[Search the Full Rolex TPD Database on Aurawinder](https://aurawinder.com/pages/tpd-database)**
+👉 **[Search the Full Rolex TPD Database on Aurawinder](https://www.aurawinder.com/automatic-watch-settings-watch-tpd-database/)**
 
 ---
 
