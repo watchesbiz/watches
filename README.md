@@ -92,20 +92,42 @@ watch-winder horology rolex patek-philippe tpd-database engineering luxury-goods
 
 If you are building a custom home-automation dashboard (e.g., Home Assistant) or an independent horology app, you can query our raw caliber parameters directly via GitHub CDN:
 
-```bash
-# Query Rolex Caliber data directly
-curl -X GET [https://raw.githubusercontent.com/watchesbiz/watches/main/api/v1/brands/rolex.json](https://raw.githubusercontent.com/watchesbiz/watches/main/api/v1/brands/rolex.json)
-```markdown
-## Smart Home Integration (MQTT & Home Assistant)
+==================
+PART 1: HOROLOGICAL DATA DICTIONARY AND SCHEMA SPECIFICATIONS
+To ensure seamless integration with automated scripts, third-party apps, and home automation platforms, every caliber in this repository is normalized using the following raw technical schema:
 
-For developers hacking custom watch winders using ESP32 or Raspberry Pi Pico, you can synchronize your hardware's duty cycle with our database metrics via this MQTT payload structure:
+FIELD DEFINITIONS:
 
-```json
-{
-  "device_id": "aurawinder_double_01",
-  "status": "ACTIVE",
-  "current_direction": "CW",
-  "target_tpd": 720,
-  "remaining_turns": 50,
-  "shielding_alert": "NORMAL_0_GAUSS"
-}
+brand: The legal trademark name of the watch manufacturer (e.g., Rolex, Omega).
+
+caliber: The specific alphanumeric identifier of the mechanical movement.
+
+direction: The required dynamic rotation vector. Valid entries are:
+
+CW  (Clockwise)
+
+CCW (Counter-Clockwise)
+
+BOTH (Bi-directional winding efficiency)
+
+min_tpd: The minimum continuous daily rotation threshold required to maintain the torque of the mainspring.
+
+max_tpd: The maximum safe operational limit before causing excessive mechanical wear on the slipping attachment.
+
+optimal_tpd: The calculated programmatic sweet spot for daily kinetic input.
+
+To interact with a live, searchable UI execution layer built on top of this exact raw schema, reference the official production deployment:
+AuraWinder Data Platform Tool ( URL: https://www.aurawinder.com/ )
+PART 2: HARDWARE TROUBLESHOOTING - MITIGATING WORKSTATION EMI
+If your mechanical timepiece experiences sudden rate acceleration (gaining 15 to 60 minutes per day) while sitting on a development desk, the oscillator is likely undergoing transient magnetization.
+
+DIAGNOSTIC PROTOCOL FOR DEVELOPERS:
+
+Identify Localized Flux Sources: Laptops with magnetic lid sensors, desktop audio monitors, magnetic tablet mounts, and induction charging pads emit fields far exceeding the 60 Gauss limit specified by ISO 764.
+
+Isolate the Culprit: Move the mechanical movement at least 20 centimeters away from consumer electronic chassis.
+
+Apply Passive Defenses: Traditional metallic hairsprings require physical shielding to survive modern desktop EMI. Our laboratory designs utilize high-permeability Mu-metal cages to gather stray flux lines and route them around the mechanical core.
+
+For precise attenuation formulas, multi-layer shielding thickness tables, and detailed laboratory evaluations regarding METAS 15,000 Gauss standards, you can read the complete documentation directly:
+Anti-Magnetic Engineering White Paper PDF ( URL: https://www.aurawinder.com/wp-content/uploads/2026/05/Anti_Magnetic_Engineering_White_Paper.pdf )
