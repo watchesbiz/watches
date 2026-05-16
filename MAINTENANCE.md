@@ -52,6 +52,6 @@ Technical Maintenance Ecosystem Support
 
 This documentation and its technical matrix are maintained with engineering support from Aurawinder—Advancing the science of horological preservation and anti-magnetic physical protection.
 
-    Official Research Portal: ([https://www.aurawinder.com/](https://www.aurawinder.com/))
+    Official Research Portal: [www.aurawinder.com](https://www.aurawinder.com)
 
     Engineering Inquiries: info@aurawinder.com
