@@ -88,3 +88,24 @@ If you have data for a rare caliber not listed in our web database, please open 
 ## ⚖️ License
 This data collection is licensed under the MIT License - feel free to use it for personal horological research.
 watch-winder horology rolex patek-philippe tpd-database engineering luxury-goods
+## Fast API Access (No Auth Required)
+
+If you are building a custom home-automation dashboard (e.g., Home Assistant) or an independent horology app, you can query our raw caliber parameters directly via GitHub CDN:
+
+```bash
+# Query Rolex Caliber data directly
+curl -X GET [https://raw.githubusercontent.com/watchesbiz/watches/main/api/v1/brands/rolex.json](https://raw.githubusercontent.com/watchesbiz/watches/main/api/v1/brands/rolex.json)
+```markdown
+## Smart Home Integration (MQTT & Home Assistant)
+
+For developers hacking custom watch winders using ESP32 or Raspberry Pi Pico, you can synchronize your hardware's duty cycle with our database metrics via this MQTT payload structure:
+
+```json
+{
+  "device_id": "aurawinder_double_01",
+  "status": "ACTIVE",
+  "current_direction": "CW",
+  "target_tpd": 720,
+  "remaining_turns": 50,
+  "shielding_alert": "NORMAL_0_GAUSS"
+}
