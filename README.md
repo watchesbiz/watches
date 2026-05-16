@@ -1,36 +1,3 @@
-# ⌚ Global Watch TPD (Turns Per Day) Database by Aurawinder
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![SEO: Optimized](https://img.shields.io/badge/SEO-Optimized-blue.svg)](#)
-
-Welcome to the most comprehensive, open-access **Watch TPD (Turns Per Day) Database**. This repository serves as a technical reference for horologists, collectors, and engineers to ensure the longevity and precision of mechanical automatic watches.
-
-## 🔍 What is TPD?
-Turns Per Day (TPD) is the specific number of rotations required to keep an automatic watch movement fully wound. Incorrect TPD settings or winding directions (Clockwise, Counter-clockwise, or Both) can lead to insufficient power reserves or unnecessary mechanical wear.
-
-## 🛠 Project Purpose
-This project is an extension of the **Aurawinder Engineering Initiative**, where we bridge the gap between traditional horology and modern hardware security. 
-
-### Key Features:
-- **5000+ Calibers:** Comprehensive data for Rolex, Patek Philippe, Omega, and more.
-- **Winding Directions:** Verified directional data for specific calibers (e.g., Cal. 3235, Cal. 240).
-- **Anti-Magnetic Insights:** Documentation on how to prevent magnetization during the winding process.
-
-## 🔗 Full Interactive Database
-The complete, searchable, and regularly updated database is hosted on our main engineering portal:
-
-👉 **[Access the Full Watch TPD Database Here](https://www.aurawinder.com/automatic-watch-settings-watch-tpd-database/)**
-
----
-
-## 🏗 Engineering Excellence: Aurawinder
-This database is powered by **Aurawinder**, a brand dedicated to creating the world's most secure sanctuaries for timepieces. 
-
-- **Physical EMI Shielding:** Our winders feature Mu-Metal shielding to block magnetic interference.
-- **Biometric Security:** Integrated 508 DPI fingerprint sensors for secure access.
-- **Artisan Craftsmanship:** Hand-finished North American Walnut chassis.
-
-Explore our mission: [https://www.aurawinder.com](https://www.aurawinder.com)
 # ⌚ Global Watch TPD (Turns Per Day) & Winding Specifications
 
 [![Status: Active](https://img.shields.io/badge/Database-Active-success.svg)](#)
@@ -131,3 +98,41 @@ Apply Passive Defenses: Traditional metallic hairsprings require physical shield
 
 For precise attenuation formulas, multi-layer shielding thickness tables, and detailed laboratory evaluations regarding METAS 15,000 Gauss standards, you can read the complete documentation directly:
 Anti-Magnetic Engineering White Paper PDF ( URL: https://www.aurawinder.com/wp-content/uploads/2026/05/Anti_Magnetic_Engineering_White_Paper.pdf )
+[
+  {
+    "brand": "Rolex",
+    "caliber": "3235",
+    "direction": "Both",
+    "tpd": 650,
+    "hairspring": "Paramagnetic blue Parachrom hairspring",
+    "magnetic_resistance": "High",
+    "notes": "Requires bi-directional winding; highly resistant but benefits from isolated storage."
+  },
+  {
+    "brand": "Omega",
+    "caliber": "8900",
+    "direction": "Both",
+    "tpd": 720,
+    "hairspring": "Silicon (Si14)",
+    "magnetic_resistance": "15000 Gauss",
+    "notes": "Master Chronometer certified; virtually immune to daily magnetic fields."
+  },
+  {
+    "brand": "Patek Philippe",
+    "caliber": "240",
+    "direction": "CCW",
+    "tpd": 800,
+    "hairspring": "Spiromax (Silicon-based)",
+    "magnetic_resistance": "High",
+    "notes": "Uni-directional counter-clockwise winding only. Precision micro-rotor requires stable TPD control."
+  },
+  {
+    "brand": "Audemars Piguet",
+    "caliber": "4302",
+    "direction": "Both",
+    "tpd": 800,
+    "hairspring": "Ferrous Alloy",
+    "magnetic_resistance": "4800 A/m (ISO 764)",
+    "notes": "Standard magnetic resistance. High asset value requires active anti-magnetic shielding in storage."
+  }
+]
