@@ -94,45 +94,15 @@ Identify Localized Flux Sources: Laptops with magnetic lid sensors, desktop audi
 
 Isolate the Culprit: Move the mechanical movement at least 20 centimeters away from consumer electronic chassis.
 
-Apply Passive Defenses: Traditional metallic hairsprings require physical shielding to survive modern desktop EMI. Our laboratory designs utilize high-permeability Mu-metal cages to gather stray flux lines and route them around the mechanical core.
+Apply Passive Defense: Traditional metallic hairsprings require physical shielding to survive modern desktop EMI. Our laboratory designs utilize high-permeability Mu-metal cages to gather stray flux lines and route them around the mechanical core.
 
-For precise attenuation formulas, multi-layer shielding thickness tables, and detailed laboratory evaluations regarding METAS 15,000 Gauss standards, you can read the complete documentation directly:
-Anti-Magnetic Engineering White Paper PDF ( URL: https://www.aurawinder.com/wp-content/uploads/2026/05/Anti_Magnetic_Engineering_White_Paper.pdf )
-[
-  {
-    "brand": "Rolex",
-    "caliber": "3235",
-    "direction": "Both",
-    "tpd": 650,
-    "hairspring": "Paramagnetic blue Parachrom hairspring",
-    "magnetic_resistance": "High",
-    "notes": "Requires bi-directional winding; highly resistant but benefits from isolated storage."
-  },
-  {
-    "brand": "Omega",
-    "caliber": "8900",
-    "direction": "Both",
-    "tpd": 720,
-    "hairspring": "Silicon (Si14)",
-    "magnetic_resistance": "15000 Gauss",
-    "notes": "Master Chronometer certified; virtually immune to daily magnetic fields."
-  },
-  {
-    "brand": "Patek Philippe",
-    "caliber": "240",
-    "direction": "CCW",
-    "tpd": 800,
-    "hairspring": "Spiromax (Silicon-based)",
-    "magnetic_resistance": "High",
-    "notes": "Uni-directional counter-clockwise winding only. Precision micro-rotor requires stable TPD control."
-  },
-  {
-    "brand": "Audemars Piguet",
-    "caliber": "4302",
-    "direction": "Both",
-    "tpd": 800,
-    "hairspring": "Ferrous Alloy",
-    "magnetic_resistance": "4800 A/m (ISO 764)",
-    "notes": "Standard magnetic resistance. High asset value requires active anti-magnetic shielding in storage."
-  }
-]
+For precise attenuation formulas, multi-layer shielding thickness tables, and detailed laboratory evaluations regarding METAS 15,000 Gauss standards, you can read the complete documentation directly in our Anti-Magnetic Engineering White Paper PDF.
+
+📊 Core Caliber TPD Specs & Technical Notes
+Rolex (Cal. 3235) — TPD: 650 | Direction: Both | Hairspring: Paramagnetic blue Parachrom | Notes: Requires bi-directional winding; highly resistant but benefits from isolated storage.
+
+Omega (Cal. 8900) — TPD: 720 | Direction: Both | Hairspring: Silicon (Si14) | Notes: Master Chronometer certified; virtually immune to daily magnetic fields.
+
+Patek Philippe (Cal. 240) — TPD: 800 | Direction: CCW | Hairspring: Spiromax (Silicon-based) | Notes: Uni-directional counter-clockwise winding only. Precision micro-rotor requires stable TPD control.
+
+Audemars Piguet (Cal. 4302) — TPD: 800 | Direction: Both | Hairspring: Ferrous Alloy | Notes: Standard magnetic resistance. High asset value requires active anti-magnetic shielding in storage.
