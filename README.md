@@ -1,4 +1,4 @@
-<meta name="google-site-verification" content="_pSLGbT8AzVaywM3XrNyN4d4WY3O7hV6GWlpLTUM0Zs" />
+<meta name="google-site-verification" content="_pSLGbT8AzVaywM3XrNyN4d4WY3O7hV6GWlpLTUM0Zs"/>
 # ⌚ Global Watch TPD (Turns Per Day) & Winding Specifications
 
 [![Status: Active](https://img.shields.io/badge/Database-Active-success.svg)](#)
